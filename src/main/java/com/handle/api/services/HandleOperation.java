@@ -130,7 +130,7 @@ public class HandleOperation {
                     outputStream.write(bytes, 0, read);
                 }
             }
-			privkey = Util.getPrivateKeyFromFileWithPassphrase(file, "bdcvcolmex");
+			privkey = Util.getPrivateKeyFromFileWithPassphrase(file, "********");
 			file.delete();
 		} catch (IOException e) {
 			logger.error("Error to open File privateKey");
