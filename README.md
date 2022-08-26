@@ -28,7 +28,7 @@ Con la finalidad de crear un control a la hora de generar identificadores unicos
 ## Iniciar el proyecto
 
 
-### Agregar archivo archivo
+### Agregar archivo admpriv
 
 Para poder ingresar al servidor de Handle institucional es necesario agregar el archivo admpriv.bin en la ruta src/main/resources/ 
 
