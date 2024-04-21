@@ -5,7 +5,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.handle.api.entities.Secuence_names;
+import com.handle.api.repositories.entities.Secuence_names;
 
 @Repository("SecuenceRepository")
 public interface SecuenceRepository extends CrudRepository<Secuence_names, Integer>{
@@ -18,5 +18,6 @@ public interface SecuenceRepository extends CrudRepository<Secuence_names, Integ
 	
 	@Query(value = "SELECT * FROM secuence_names WHERE secuence = :secuence", nativeQuery = true)
 	public Secuence_names findBySecuence(@Param("secuence") int secuence);
+	
 	
 }

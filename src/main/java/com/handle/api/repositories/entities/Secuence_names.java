@@ -1,4 +1,6 @@
-package com.handle.api.entities;
+package com.handle.api.repositories.entities;
+
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,6 +17,8 @@ public class Secuence_names {
 	private int id_secuence;
 	private int secuence;
 	private int status;
+	private String created;
+	private String modified;
 	
 	public int getId_secuence() {
 		return id_secuence;
@@ -33,6 +37,18 @@ public class Secuence_names {
 	}
 	public void setStatus(int status) {
 		this.status = status;
+	}
+	public String getCreated() {
+		return created;
+	}
+	public void setCreated(String created) {
+		this.created = created;
+	}
+	public String getModified() {
+		return modified;
+	}
+	public void setModified(String modified) {
+		this.modified = modified;
 	}
 	
 	

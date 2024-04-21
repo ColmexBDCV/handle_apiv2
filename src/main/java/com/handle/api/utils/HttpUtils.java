@@ -1,4 +1,4 @@
-package com.handle.api.services;
+package com.handle.api.utils;
 
 import javax.servlet.http.HttpServletRequest;
 

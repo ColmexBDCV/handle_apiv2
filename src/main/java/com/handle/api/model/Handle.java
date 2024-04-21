@@ -1,4 +1,4 @@
-package com.handle.api.entities;
+package com.handle.api.model;
 
 import net.handle.hdllib.AdminRecord;
 import net.handle.hdllib.Common;
@@ -11,6 +11,7 @@ public class Handle {
 	private HandleValue handleAdmin = new HandleValue();
 	private String URL;
 	private String name;
+	private String idHandle;
 	private String adminHandle = "";
 	
 	public HandleValue getHandleValue() {
@@ -62,7 +63,13 @@ public class Handle {
 	public void setAdminHandle(String adminHandle) {
 		this.adminHandle = adminHandle;
 	}
-	
-	
-	
+
+	public String getIdHandle() {
+		return idHandle;
+	}
+
+	public void setIdHandle(String idHandle) {
+		this.idHandle = idHandle;
+	}
+		
 }

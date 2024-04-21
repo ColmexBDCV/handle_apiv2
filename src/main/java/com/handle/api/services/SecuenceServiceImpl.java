@@ -3,8 +3,8 @@ package com.handle.api.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.handle.api.entities.Secuence_names;
 import com.handle.api.repositories.SecuenceRepository;
+import com.handle.api.repositories.entities.Secuence_names;
 
 @Service("secuenceService")
 public class SecuenceServiceImpl implements SecuenceService{

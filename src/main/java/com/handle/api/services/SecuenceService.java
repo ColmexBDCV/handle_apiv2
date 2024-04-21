@@ -1,6 +1,6 @@
 package com.handle.api.services;
 
-import com.handle.api.entities.Secuence_names;
+import com.handle.api.repositories.entities.Secuence_names;
 
 public interface SecuenceService {
 	

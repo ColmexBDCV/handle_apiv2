@@ -1,20 +1,25 @@
-package com.handle.api.entities;
+package com.handle.api.model;
 
 public class HandleResponse {
 	private int handleCode;
 	private String handleDesc;
 	private String URL;
+	private String status;
+	private String statusDesc;
 	
 	public HandleResponse() {
 		
 	}
 	
-	public HandleResponse(int handleCode, String handleDesc, String URL) {
+	public HandleResponse(int handleCode, String handleDesc, String uRL, String status, String statusDesc) {
+		super();
 		this.handleCode = handleCode;
 		this.handleDesc = handleDesc;
-		this.URL = URL;
+		URL = uRL;
+		this.status = status;
+		this.statusDesc = statusDesc;
 	}
-	
+
 	public String getURL() {
 		return URL;
 	}
@@ -32,5 +37,21 @@ public class HandleResponse {
 	}
 	public void setHandleDesc(String handleDesc) {
 		this.handleDesc = handleDesc;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getStatusDesc() {
+		return statusDesc;
+	}
+
+	public void setStatusDesc(String statusDesc) {
+		this.statusDesc = statusDesc;
 	}
 }
