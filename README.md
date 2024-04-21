@@ -16,7 +16,7 @@ Con la finalidad de crear un control a la hora de generar identificadores unicos
 
 <!--ts-->
 - [Iniciar el proyecto](#iniciar-el-proyecto)
-    * [Modificar el archivo .env.js](#modificar-archivo-env)
+    * [Agregar archivo admpriv](#agregar-archivo-admpriv)
 	* [Ejecutar el proyecto](#ejecutar-el-proyecto)
 
 <!--    * [Migrar base de datos](#migrar-base-de-datos)
@@ -28,7 +28,7 @@ Con la finalidad de crear un control a la hora de generar identificadores unicos
 ## Iniciar el proyecto
 
 
-### Agregar archivo archivo
+### Agregar archivo admpriv
 
 Para poder ingresar al servidor de Handle institucional es necesario agregar el archivo admpriv.bin en la ruta src/main/resources/ 
 
